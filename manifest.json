@@ -1,0 +1,14 @@
+{
+"manifest_version": 3,
+
+"name": "Skiplix",
+"description": "skips intro recap and next episode",
+"version": "1.0",
+"permissions": ["scripting","storage", "alarms"],
+"host_permissions": ["<all_urls>"],
+
+"action": {
+    "default_title": "Click me",
+    "default_popup": "popup.html"
+}
+}
